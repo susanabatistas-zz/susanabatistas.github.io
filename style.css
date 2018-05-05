@@ -23,6 +23,10 @@ a{
     margin-bottom: 50px;
 }
 
+.content{
+    margin-top: 50px;
+}
+
 h2{
     font-size: 1.4rem;
     font-weight: 400;
