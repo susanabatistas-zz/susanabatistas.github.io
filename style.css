@@ -1,0 +1,59 @@
+:root {
+  --black: #000;
+  --gray: #9e9e9e;
+  --darkGray: #555;
+  --blackLowOpacity: rgba(0,0,0,0.05);
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+header {
+  border-bottom: 1px solid var(--blackLowOpacity);
+}
+
+header h1 {
+  font-size: 1.35rem;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.social a {
+  color: var(--black);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social i {
+  margin-right: 15px;
+}
+
+section {
+  margin-top: 50px;
+}
+
+section h2 {
+  font-weight: 100;
+  color: var(--gray);
+}
+
+section a {
+  text-decoration: underline;
+  color: var(--darkGray);
+}
+
+section a:hover {
+  color: var(--black);
+}
+
+li {
+  margin-bottom: 10px;
+}
